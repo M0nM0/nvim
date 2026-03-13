@@ -12,6 +12,9 @@ local opts = {
   -- エラーがあっても復元を続行
   continue_restore_on_error = true,
 
+  -- セッション保存前にnvim-treeを閉じる（lazy-loadedなので復元時に壊れるのを防ぐ）
+  pre_save_cmds = { "NvimTreeClose" },
+
   -- セッションを作成しないディレクトリ（macOSのデフォルトディレクトリ）
   suppressed_dirs = {
     "~/",
