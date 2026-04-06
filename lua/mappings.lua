@@ -130,8 +130,6 @@ map("n", "<leader>rr", "<Cmd>RSpecRerun<CR>", { desc = "Rerun spec", silent = tr
 map("n", "<leader>rF", "<Cmd>RSpecOnlyFailures<CR>", { desc = "Run only failed spec", silent = true })
 map("n", "<leader>rs", "<Cmd>RSpecShowLastResult<CR>", { desc = "Show spec results", silent = true })
 
--- Flutter
-map("n", "<leader>rl", "<Cmd>FlutterLspRestart<CR>", { desc = "Restart Flutter LSP" })
 
 -- dial.nvim
 map("n", "<C-a>", function()
