@@ -9,6 +9,7 @@ local options = {
     javascriptreact = { "biome" },
     typescriptreact = { "biome" },
     json = { "biome" },
+    dart = { "dart_format" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
