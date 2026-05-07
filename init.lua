@@ -38,6 +38,7 @@ local lazy_plugins = {
   { import = "plugins.finder" },
   { import = "plugins.git" },
   { import = "plugins.markdown" },
+  { import = "plugins.csv" },
   { import = "plugins.ai" },
 }
 
