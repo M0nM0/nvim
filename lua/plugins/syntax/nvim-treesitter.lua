@@ -1,5 +1,6 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  branch = "main",
   opts = {
     ensure_installed = {
       "vim",
@@ -19,9 +20,6 @@ return {
       "graphql",
       "markdown",
       "markdown_inline"
-    },
-    indent = {
-      enable = true,
     },
   }
 }
